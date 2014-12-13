@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face
+{
+font-family: myFont;
+src:url('fonts/gymboree.TTF');
+}
+h1{ font-size:20px; font-weight:bolder; font-family:myFont;}
+.nav-collapse span{font-size:18px; font-family:myFont; }
+.content2  span{font-size:12px; font-family:myFont;}
+
+@media screen and (min-width:979px){
+	.font{font-size:18px; font-family:myFont;}
+	.fontB{
+	        font-weight:bolder;font-family:myFont;}
+	.fontL{ font-size:18px;font-family:myFont;}
+	.fontLL{ font-size:36px;font-family:myFont;}
+	.fontI{ font-style:italic;}
+	.color{ color:#09F;font-family:myFont;}
+	.fontS{font-size:14px;font-family:myFont;}
+	.fontSS{font-size:12px;font-family:myFont;}
+	p{ font-size:18px; font-family:myFont;}
+	}
+@media screen and (min-width:768px) and(max-width:979px){
+	.font{font-size:16px;font-family:myFont;}
+	.fontB{
+	        font-weight:bolder;font-family:myFont;}
+	.fontL{ font-size:18px;font-family:myFont;}
+	.fontLL{ font-size:20px;font-family:myFont;}
+	.fontI{ font-style:italic;font-family:myFont;}
+	.color{ color:#09F;font-family:myFont;}
+	.fontS{font-size:14px;font-family:myFont;}
+	.fontSS{font-size:12px;font-family:myFont;}
+	p{ font-size:18px; font-family:myFont;}
+	}
+@media screen and (min-width:480px) and(max-width:768px){
+	.font{font-size:14px;font-family:myFont;}
+	.fontB{
+	        font-weight:bolder;font-family:myFont;}
+	.fontL{ font-size:16px;font-family:myFont;}
+	.fontLL{ font-size:18px;font-family:myFont;}
+	.fontI{ font-style:italic;font-family:myFont;}
+	.color{ color:#09F;font-family:myFont;}
+	.fontS{font-size:12px;font-family:myFont;}
+	.fontSS{font-size:10px;font-family:myFont;}
+	p{ font-size:16px; font-family:myFont;}
+	}
+	
+@media screen and (man-width:480px){
+	.font{font-size:1px;font-family:myFont;}
+	.fontB{
+	        font-weight:bolder;font-family:myFont;}
+	.fontL{ font-size:14px;font-family:myFont;}
+	.fontLL{ font-size:16px;font-family:myFont;}
+	.fontI{ font-style:italic;font-family:myFont;}
+	.color{ color:#09F;font-family:myFont;}
+	.fontS{font-size:10px;font-family:myFont;}
+	.fontSS{font-size:8px;font-family:myFont;}
+	p{ font-size:14px; font-family:myFont; }
+	
+	}

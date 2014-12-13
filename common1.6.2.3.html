@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--默认都允许用户缩放页面，或者在屏幕双击放大或缩小。-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=yes" /> 
+<!--禁止缩放-->
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+<title>金宝贝</title>
+<!-- 新 Bootstrap 核心 CSS 文件 -->
+<!--[if lt IE 8]>  
+    <link rel="stylesheet" href="css/head_nav.css">
+    <link rel="stylesheet" href="css/structure.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/cont_layout.css">
+    <link rel="stylesheet" href="css/shortcuts.css">
+    <style type="text/css">
+
+        .class1{ cursor:pointer;border:1px #F00 solid; margin-top:0px;}
+        .class2{ background:url(image/pic004.jpg) no-repeat center; height:100%; width:100%;}
+        .class3{ background:url(image/pic008.jpg) no-repeat center; height:100%; width:100%;}
+        .class4{ background:url(image/pic006.jpg) no-repeat center; height:100%; width:100%;}
+        .class5{ background:url(image/pic007.jpg) no-repeat center; height:100%; width:100%;}
+        .class6{ width:100%;; height:100%;; position:absolute; z-index:0;}
+   </style>
+   
+    <script src="js/jquery-2.0.3.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/threeMenuTrans.js"></script>
+    <script src="js/global_js.js"></script>
+    <script src="js/nav_control.js"></script>
+    <script src="js/forthMenuTrans.js"></script>
+<![endif]-->
+<link rel="stylesheet" href="css/head_nav.css">
+<link rel="stylesheet" href="css/structure.css">
+<link rel="stylesheet" href="css/slider.css">
+<link rel="stylesheet" href="css/font.css">
+<link rel="stylesheet" href="css/cont_layout.css">
+<link rel="stylesheet" href="css/shortcuts.css">
+
+<style type="text/css">
+
+.class1{ cursor:pointer;border:1px #F00 solid; margin-top:0px;}
+.class2{ background:url(image/pic004.jpg) no-repeat center; height:100%; width:100%;}
+.class3{ background:url(image/pic008.jpg) no-repeat center; height:100%; width:100%;}
+.class4{ background:url(image/pic006.jpg) no-repeat center; height:100%; width:100%;}
+.class5{ background:url(image/pic007.jpg) no-repeat center; height:100%; width:100%;}
+.class6{ width:100%;; height:100%;; position:absolute; z-index:0;}
+
+
+
+</style>
+
+<script src="js/jquery-2.0.3.min.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/threeMenuTrans.js"></script>
+<script src="js/global_js.js"></script>
+<script src="js/nav_control.js"></script>
+<script src="js/forthMenuTrans.js"></script>
+</head>
+
+<body >
+<!--Logo Start--> 
+   <header class="logo_bar">
+       <div class="logo"><img src="image/logo.png" /></div>
+       <div class="nav_icon">
+          <ul>
+            <li><img src="image/ba1.png" /></li>   
+            <li><img src="image/ba2.png" /></li>
+            <li><img src="image/ba1.png" /></li>
+         </ul>
+       </div>
+       
+   </header>
+   
+  <!--Logo End--> 
+  
+  <!--Navigation Start--> 
+  
+  <div class="container_nav">
+       <div class="out_handler">
+         <div class="nav_handler" id='nav_flag'></div><!--导航栏压缩时用于显示导航栏下拉的快捷键-->
+         </div>
+         <div class="nav-collapse font" id="nav_handler">
+         <div  class="nav_slide_left"><img src="image/nav_slide_r.png"></div>
+           <ul class="none" id="nav_con">
+            <div style="width:10000px;" id="nav_inner">
+              <li><a href="#"><span>我是金宝</span></a></li>
+              <li><a href="#"><span>你的达人指数</span></a></li>
+              <li><a href="#"><span>早教是什么</span></a></li>
+              <li><a href="#"><span>金宝贝是谁</span></a></li>
+              <li><a href="#"><span>课程初体验</span></a></li>
+              <li><a href="#"><span>我们这拨人</span></a></li>
+              <li><a href="#"><span>360服务</span></a></li>
+              <li class="lastOne"><a href="#" ><span></span></a></li>
+            </div>
+           </ul>
+           <div class="nav_slide_right"><img src="image/nav_slide_l.png"></div>
+           </div>
+     
+  </div> 
+   
+  <!--Navigation End-->  
+  
+  <!--Content Start--> 
+  <div class="container_start" >
+<!--==================================================================-->
+  <!--Container1 Start-->
+ 
+  <div class="container_content" id="container1" style="float:left" value='1'>
+     <div id="threePageMenu">
+             <div class="content2 cont_layout6 cont_layout7" id="p0">
+                      <div><img src="image/pic001.jpg" value="page11"/> <span>课程初体验</span></div>
+                      <div><img src="image/pic002.jpg" value="page12"/><span>教具初体验</span></div>
+                      <div><img src="image/pic003.jpg" value="page13"/><span>我来教你玩</span></div>
+                     <aside class="cont_layout8" id="aside0"><img src="image/contract.png"></aside> 
+                  </div>
+             <div class="content2 cont_layout6_1 cont_layout7" id="p1" style="display:none">
+                      <div><img src="image/pic002.jpg" value="page12"/>教具初体验</div>
+                      <div><img src="image/pic003.jpg" value="page13"/>我来教你玩</div>
+                     <aside class="cont_layout8" id="aside1" ><img src="image/contract.png"></aside> 
+                     </div>
+            <div class="content2 cont_layout6_1 cont_layout7" id="p2" style="display:none">
+                      <div><img src="image/pic001.jpg" value="page11"/>课程初体验</div>
+                      <div><img src="image/pic003.jpg" value="page13"/>我来教你玩</div>
+                      <aside class="cont_layout8" id="aside2"><img src="image/contract.png"></aside> 
+                      </div>
+                  
+            <div class="content2 cont_layout6_1 cont_layout7 " id="p3" style="display:none">
+                      <div><img src="image/pic001.jpg" value="page11"/>课程初体验</div>
+                      <div><img src="image/pic002.jpg" value="page12"/>教具初体验</div>
+                      <aside class="cont_layout8" id="aside3"><img src="image/contract.png"></aside> 
+                      </div>
+       </div>
+  <!--Page0 Start-->   
+     <div id="page0" class="class2" >
+     
+          
+          <div class="content3 cont_layout5 ">
+                <span class="font">音乐课</span><br>
+                <h1 class="font"><span class="fontLL">Play</span></h1>
+                <p>发现孩子的兴趣，提供适龄有趣的游戏，在过程中不断探索自己的能力，如空间感、对自己身体的控制等，从中体验到尝试、失败、成功的快乐，而家长也在观察、陪伴、协助、引导和与其他家庭的交流中，发现孩子的特别之处。
+                  </p>
+
+          </div>
+          
+          <div class="cont_layout5_2"></div>
+
+   </div>    
+  <!--Page0 End--> 
+  
+    <!--Page1 Start-->   
+     <div id="page1" style="display:none; " class="class3" >
+             
+          <!-- <video src="video/video1.mp4"  width="100px" height="100px;" style=" background-image:url(image/play.png); z-index:999;" id="video1"  class="cont_layout4" controls="controls"></video>-->
+           <div style=" background-image:url(image/play.png); background-repeat:no-repeat; " id="video1" class="cont_layout4"></div>
+
+             
+             
+             
+        
+            
+   </div>    
+  <!--Page1 End-->   
+  
+  
+    <!--Page2 Start-->   
+     <div id="page2" style="display:none;" class="class4" >
+             <div class="content1 cont_layout5">
+               
+              </div>
+              
+              
+            
+   </div>    
+  <!--Page2 End-->  
+  
+   <!--Page3 Start-->   
+     <div id="page3" style="display:none;" class="class5" >
+             <div class="content1 cont_layout12 level4m" >
+                          <div class="content11 cont_layout11" value='1'>
+                            <img src="image/toy1.jpg" />Item1
+                          </div>
+                            <div class="content12 cont_layout11" style="display:none">
+                           <img src="image/toy2.jpg" />Item2
+                          </div>
+                            <div class="content13 cont_layout11" style="display:none">
+                           <img src="image/toy3.jpg" />Item3
+                          </div>
+                            <div class="content14 cont_layout11" style="display:none">
+                           <img src="image/toy4.jpg" />Item4
+                          </div>
+                            <div class="content15 cont_layout11" style="display:none">
+                           <img src="image/toy5.jpg" />Item5
+                          </div>
+                          <div class="content16 cont_layout11" style="display:none">
+                           <img src="image/toy6.jpg" />Item6
+                          </div>
+                         <div class="content17 cont_layout11" style="display:none">
+                           <img src="image/toy7.jpg" />Item7
+                          </div> 
+                
+              </div>
+              
+               <div class="content3 cont_layout10" id="forthMenuSlide">
+                      <div class="arrow_up"><img src="image/新增箭头-02.png" style="width:100%; height:100%;"></div>
+                      <div class="cont_inner" id="cont_inner">
+                              <div class="cont_item" id="item1" > <img src="image/toy1.jpg" /></div>
+                              <div class="cont_item" id="item2"><img src="image/toy2.jpg" /></div>
+                              <div class="cont_item" id="item3"><img src="image/toy3.jpg" /></div>
+                              <div class="cont_item" id="item4"><img src="image/toy4.jpg" /></div>
+                              <div class="cont_item" id="item5"><img src="image/toy5.jpg" /></div>
+                              <div class="cont_item" id="item6"><img src="image/toy6.jpg" /></div>
+                              <div class="cont_item" id="item7"><img src="image/toy7.jpg" /></div>
+                      </div>
+                      <div class="arrow_bottom"><img src="image/新增箭头-03.png" style="width:100%; height:100%;"></div>
+         </div>
+              
+   </div>    
+  <!--Page3 End--> 
+  
+        
+        
+      
+       <div class="content_shortcuts fontS">
+            <div class="block"><img src="image/contract3.png" style="height:100%; width:100%;"></div>
+              <ul>
+                 <li><a href="#">预约<br>试听
+                      </a></li>
+                 <li><a href="#">下载<br>APP
+                     </a></li>
+                 <li><a href="#">中心<br>查询
+                     </a></li>
+               
+                 </ul>
+       </div>
+
+  </div>
+  
+   <!--Container1 End-->
+   <!--==================================================================-->
+  <!--Container2 Start-->
+ 
+  <div class="container_content" id="container2" style="float:left; display:none;" value='2' >
+     2222222222
+  </div>
+  <!--Container2 End-->
+ <!--==================================================================-->
+  <!--Container3 Start-->
+ 
+  <div class="container_content" id="container3" style="float:left; display:none;" value='3' >
+     333333333
+  </div>
+  <!--Container3 End-->
+
+
+   </div>
+  <!--Content End--> 
+  
+  
+  
+  
+ <!--==================================================================-->  
+  <!--Slider Start--> 
+ <div class="rollBox">
+  
+    <div class="leftButton"  id="leftBtn"><img src="image/arrow02.png" style="height:100%; width:100%;"/></div>
+   
+    <div class="Con" id="Con">
+       <div class="srcCon">
+     
+          <div class="pic" value='1'><div id="realpic1" class="image"><img src="image/musicitem.png"/><span class="font">音乐</span></div>
+                   </div>
+
+          
+           <div class="pic" value='2'><div id="realpic2"  class="image"><img src="image/artsitem.png"/><span class="font">艺术</span></div>
+                   </div>
+          
+            <div class="pic" value='3'><div id="realpic3"  class="image"><img src="image/globalbabyitem.png"/><span class="font">体育</span></div>
+                   </div>
+           <div class="pic" value='4'><div id="realpic4"  class="image"><img src="image/skillitem.png"/><span class="font">技能</span></div>
+                   </div>
+           <div class="pic" value='5'><div id="realpic5"   class="image"><img src="image/sportitem.png"/><span class="font">环球宝贝</span></div>
+                   </div>
+          
+            <div class="pic" value='6'><div id="realpic6"   class="image"><img src="image/sportitem.png"/><span class="font">技能</span></div>
+                  </div>
+          <div class="pic" value='7'><div id="realpic7"  class="image"><img src="image/sportitem.png"/><span class="font">体育</span></div>
+                  </div>
+      </div>
+    </div>
+    <div class="rightButton" id="rightBtn" onClick="a()"><img src="image/arrow01.png" style="height:100%; width:100%;"/></div>
+    </div>
+     <!--Slider End--> 
+    
+     <footer></footer>
+</body>
+
+
+
+
+
+
+
+
+
+<!--================================================================-->
+<!--Nav_Slide Start -->
+<script>
+var navSlider=  navSlider("nav_con", {
+					Speed: 1, //速度
+					Space: 4, //每次移动的距离
+					fill: 0, //整体的位移
+					givenWidth:156,
+					fillMax1:1,//当页面大于768时，滑动显示的个数
+					
+				});
+
+
+</script>
+<!--Nav_Slide End -->
+<!--================================================================-->
+
+<!--四级菜单轮播Start-->
+<script>
+
+   var forthMenuSlide=forthMenuSlide('cont_inner',{
+	   fillMax:4,
+	   pageHeight:'item1',
+	   Space:1,
+	   fill:0,
+	   });
+   
+</script>
+<!--四级菜单轮播End-->
+<!--================================================================-->
+<!--四级菜单内容变化Start-->
+<script>
+
+ 
+</script>
+<!--四级菜单内容变化End-->
+<!--================================================================-->
+<!--Video Control Start-->
+<script>
+
+$(function(){
+	$('#video1').click(function(){
+		$(this).removeClass('cont_layout4')
+		$(this).parent().append('<video src="video/video1.mp4"  width="100px" height="100px;" id="video2"  class="class6" controls="controls" ></video>');
+		$('#video2').live('click',makeSmall());
+		
+		})})
+
+var myVideo=document.getElementById('video2');
+function playPause(video)
+{ 
+
+var myVideo=document.getElementById(video);
+if (myVideo.paused) 
+  myVideo.play(); 
+else 
+  myVideo.pause(); 
+} 
+
+function makeBig()
+{ 
+myVideo.width=560; 
+} 
+
+function makeSmall()
+{ 
+myVideo.width=320; 
+} 
+
+function makeNormal()
+{ 
+myVideo.width=420; 
+} 
+</script>
+<!--Video Control End-->
+<!--================================================================-->
+<!--快捷键 Start-->
+  <script type="text/javascript">
+    var shortcuts=shortcuts("block",{
+		showObj:'content_shortcuts',
+		transObj:'height',
+		height1:'45px',
+		height2:'300px',
+		time:500});
+
+  </script>
+<!--快捷键 End-->
+<!--================================================================-->
+
+<!--三级菜页面控制 Start-->
+
+<script type="text/javascript">
+ var threePageSlide=threePageSlide("threePageMenu",{
+	 tag0:'p',
+	 TIME1:500
+	 })
+</script>
+<!--三级菜页面控制 End-->
+<!--================================================================-->
+
+<!--二级菜单的轮播 Start-->
+<script type="text/javascript">
+//控制图片的左右滑动
+	var imgSlider=  imgSlider("Con", {
+					Speed: 1, //速度
+					Space: 4, //每次移动的距离
+					Space1:4,
+					fill: 0, //整体的位移
+					pageWidth:"realpic1",//用来测量当前id的物理宽度
+					size1:768,
+					size2:"",
+					size3:"",
+					fillMax1:4,//当页面大于768时，滑动显示的个数
+					fillMax2:3 //当页面小于768时，滑动显示的个数
+				});
+</script>
+<!--二级菜单的轮播End-->
+<!--================================================================-->
+
+<!--二级菜单的页面变化Start-->
+<script type="text/javascript">
+//左右滑动控制页面的显示
+		var slidePage=   slidePage('innerCont',{
+						 cont_num:7,
+						 time:1,//画面隐藏和显示的时间
+						 });
+</script>
+
+<!--二级菜单的页面变化End-->
+
+
+
+</html>

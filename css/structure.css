@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+<!--内容信息-->
+@charset "utf-8";
+/* CSS Document */
+
+.container_content, 
+.container_content .content_logo,.container_content 
+.content_shortcuts,
+.container_content .content,.container_content .content_shortcuts li{-moz-box-sizing:border-box;
+																	 -webkit-box-sizing:border-box;
+																	 -o-box-sizing:border-box;
+																	 -ms-box-sizing:border-box;
+																	  border-box:border-box;}
+
+.container_start{ overflow:hidden;}
+
+@media screen and (min-width: 978px){
+.container_start{ position:relative;
+				    width:978px;
+					margin:0 auto;
+					height:340px;
+				    
+					margin-top:95px;
+					
+					}
+.container_content{	 height:100%;
+		             overflow:hidden; 
+		             float:left; 
+		             display:block;
+		             position:absolute;
+					 width:978px;
+					 background:#999;
+					 border-radius:5px;}
+
+
+/*Start 公司的内容*/			
+.container_content .content{ position:absolute;
+                             float:left;
+							 left:26%;
+							 height:60%;
+							 border:1px solid;
+							 width:48%;
+							 bottom:20%;
+							 position:absolute;
+							 display:block;
+							 margin:0 auto;
+	} 
+.container_content .content .content_go{ position:absolute;right:20%; top:65%;}
+.container_content .content .content_go .go_icon{ height:30px; width:70px; background:url(../../../../../../Public/Pictures/Sample%20Pictures/Hydrangeas.jpg)}
+
+
+/*End 公司的内容*/	
+
+
+}
+
+@media screen and (min-width: 760px) and (max-width:978px){
+.container_start{ position:relative;
+				    width:768px;
+					margin:0 auto;
+					height:340px;
+					margin-top:10px;
+					
+					}
+
+	.container_content{
+	                   position:relative;
+						width:768px;
+						margin:0 auto;
+						height:340px;
+						background:#999;
+						margin-top:0px;
+						border-radius:3px;}
+
+
+    /*Start 公司的内*/				
+	.container_content .content{ position:absolute;
+								 float:left;
+								 left:26%;
+								 height:60%;
+								 border:1px solid;
+								 width:48%;
+								 bottom:20%;
+								 position:absolute;
+								 display:block;
+								 -moz-box-sizing:border-box;
+								 -webkit-box-sizing:border-box;
+								 -ms-box-sizing:border-box;
+								 border-box:border-box;
+								 
+	} 
+	.container_content .content .content_go{ position:absolute;right:20%; top:60%;}
+	.container_content .content .content_go .go_icon{ height:30px; width:70px; background:url(../../../../../../Public/Pictures/Sample%20Pictures/Hydrangeas.jpg)}
+
+	 /*End 公司的内容*/	
+
+  
+	}
+@media screen and (min-width: 480px) and (max-width:760px){
+.container_start{   position:relative;
+				    width:480px;
+					margin:0 auto;
+					height:340px;
+					margin-top:10px;
+					}
+
+	.container_content{
+	                    position:relative;
+						width:480px;
+						margin:0 auto;
+						height:340px;
+						background:#999;
+						margin-top:0px;
+						border-radius:3px;}
+	
+
+    /*Start 公司的内*/				
+	.container_content .content{ position:absolute;
+								 float:left;
+								 left:36%;
+								 height:60%;
+								 border:1px solid;
+								 width:48%;
+								 bottom:20%;
+								 position:absolute;
+								 display:block;
+								 -moz-box-sizing:border-box;
+								 -webkit-box-sizing:border-box;
+								 -ms-box-sizing:border-box;
+								 border-box:border-box;
+								 
+	} 
+	.container_content .content .content_go{ position:absolute;right:20%; top:60%;}
+	
+
+	 /*End 公司的内容*/	
+
+   
+	}
+	
+	@media screen  and (max-width:480px){
+    .container_start{ position:relative;
+				    width:320px;
+					margin:0 auto;
+					height:340px;
+					margin-top:10px;
+					
+					}
+
+	.container_content{
+	                    position:relative;
+						width:320px;
+						margin:0 auto;
+						height:340px;
+						background:#999;
+						margin-top:0px;
+						border-radius:3px;}
+	
+
+    /*Start 公司的内*/				
+	.container_content .content{ position:absolute;
+								 float:left;
+								 left:15%;
+								 right:0%;
+								 height:60%;
+								 border:1px solid;
+								 width:70%;
+								 bottom:20%;
+								 position:absolute;
+								 display:block;
+								 -moz-box-sizing:border-box;
+								 -webkit-box-sizing:border-box;
+								 -ms-box-sizing:border-box;
+								 border-box:border-box;
+								 
+	} 
+	.container_content .content .content_go{ position:absolute;right:20%; top:60%;}
+	.container_content .content .content_go .go_icon{ height:30px; width:70px; }
+
+	 /*End 公司的内容*/	
+
+  
+	}
+.container_content{border-radius:5px;}

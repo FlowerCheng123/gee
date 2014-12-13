@@ -1,0 +1,266 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container_content, 
+.container_content .content_logo,.container_content 
+.content_shortcuts,
+.container_content .content,.container_content .content_shortcuts li{-moz-box-sizing:border-box;
+																	 -webkit-box-sizing:border-box;
+																	 -ms-box-sizing:border-box;
+																	  border-box:border-box;}
+
+
+
+@media screen and (min-width: 978px){
+.container_content{ position:relative;
+				    width:978px;
+					margin:0 auto;
+					height:340px;
+				    background:#999;
+					margin-top:65px;
+					border-radius:3px;
+					}
+/*Start 公司的logo*/
+.container_content .content_logo{float:left; 
+                                 position:absolute; 
+								 display:block; 
+								 width:20%; 
+								 bottom:10px;
+								 left:1%; 
+								 height:80%;}
+.container_content .content_logo img{ height:100%; 
+                                      width:80%; 
+									  cursor:pointer;
+								  }	
+/*End公司的logo*/
+
+/*Start 公司的内容*/			
+.container_content .content{ position:absolute;
+                             float:left;
+							 left:26%;
+							 height:60%;
+							 border:1px solid;
+							 width:48%;
+							 bottom:20%;
+							 position:absolute;
+							 display:block;
+							 margin:0 auto;
+	} 
+.container_content .content .content_go{ position:absolute;right:20%; top:65%;}
+.container_content .content .content_go .go_icon{ height:30px; width:70px; background:url(../../../../../../Public/Pictures/Sample%20Pictures/Hydrangeas.jpg)}
+
+
+/*End 公司的内容*/	
+
+/*Start 公司的快捷键*/
+.container_content .content_shortcuts{ position:absolute;
+										left:90%;
+										top:16%;
+										width:9%;
+										bottom:13%;
+										float:left;
+										border: 1px #F66 dashed; 
+										display:block;
+										}
+.container_content .content_shortcuts li{
+	                                      display:block;
+										  border:1px #9CF solid;
+										  margin:5px 15px;
+										  line-height:45px;
+										  text-align:center;}
+/*End 公司的快捷键*/
+}
+
+@media screen and (min-width: 768px) and (max-width:978px){
+
+
+	.container_content{
+	                   position:relative;
+						width:768px;
+						margin:0 auto;
+						height:340px;
+						background:#999;
+						margin-top:0px;
+						border-radius:3px;}
+	/*Start 公司的logo*/
+	.container_content .content_logo{float:left; 
+	                                 position:absolute; 
+									 display:block; 
+									 width:20%; 
+									 bottom:10px;
+									 left:1%; 
+									 height:80%; 
+									            }
+	.container_content .content_logo img{ height:100%; 
+                                          width:80%; 
+									      cursor:pointer;
+									      }	
+	/*End公司的log*/
+
+    /*Start 公司的内*/				
+	.container_content .content{ position:absolute;
+								 float:left;
+								 left:26%;
+								 height:60%;
+								 border:1px solid;
+								 width:48%;
+								 bottom:20%;
+								 position:absolute;
+								 display:block;
+								 -moz-box-sizing:border-box;
+								 -webkit-box-sizing:border-box;
+								 -ms-box-sizing:border-box;
+								 border-box:border-box;
+								 
+	} 
+	.container_content .content .content_go{ position:absolute;right:20%; top:60%;}
+	.container_content .content .content_go .go_icon{ height:30px; width:70px; background:url(../../../../../../Public/Pictures/Sample%20Pictures/Hydrangeas.jpg)}
+
+	 /*End 公司的内容*/	
+
+    /*Start 公司的快捷键*/
+	.container_content .content_shortcuts{ position:absolute;
+									left:88%;
+									top:16%;
+								    width:11%;
+									bottom:13%;
+									float:left;
+									border: 1px #F66 dashed; 
+									display:block;
+									}
+	.container_content .content_shortcuts li{
+									      display:block;
+										  border:1px #9CF solid;
+										  margin:5px 15px;
+										  line-height:45px;
+										  text-align:center;
+										  border-radius:3px;}
+	}
+@media screen and (min-width: 480px) and (max-width:768px){
+
+
+	.container_content{
+	                    position:relative;
+						width:480px;
+						margin:0 auto;
+						height:330px;
+						background:#999;
+						margin-top:0px;
+						border-radius:3px;}
+	/*Start 公司的logo*/
+	.container_content .content_logo{float:left; position:absolute; display:block; width:150px;; bottom:10px;left:1%; height:200px; }
+	.container_content .content_logo img{ height:100%; 
+                                          width:80%; 
+									      cursor:pointer;
+									      }	
+	/*End公司的log*/
+
+    /*Start 公司的内*/				
+	.container_content .content{ position:absolute;
+								 float:left;
+								 left:36%;
+								 height:60%;
+								 border:1px solid;
+								 width:48%;
+								 bottom:20%;
+								 position:absolute;
+								 display:block;
+								 -moz-box-sizing:border-box;
+								 -webkit-box-sizing:border-box;
+								 -ms-box-sizing:border-box;
+								 border-box:border-box;
+								 
+	} 
+	.container_content .content .content_go{ position:absolute;right:20%; top:60%;}
+	.container_content .content .content_go .go_icon{ height:30px; width:70px; background:url(../../../../../../Public/Pictures/Sample%20Pictures/Hydrangeas.jpg)}
+
+	 /*End 公司的内容*/	
+
+    /*Start 公司的快捷键*/
+	.container_content .content_shortcuts{ position:absolute;
+									       width:170px;
+									       bottom:-52%;
+									       left:33%;
+									       border: 0px #F66 dashed; 
+									       display:block;
+									       clear:left;
+										   overflow:hidden;
+										   height:40px;
+										   display:block;
+									}
+	.container_content .content_shortcuts li{
+									      display:block;
+										  border:1px #9CF solid;
+										  margin:5px 10px;
+										  line-height:30px;
+										  text-align:center;
+										  width:35px;
+										  float:left;
+										  border-radius:3px;
+										  background:#0FF;}
+	}
+	
+	@media screen  and (max-width:480px){
+
+
+	.container_content{
+	                    position:relative;
+						width:94%;
+						margin:0 auto;
+						height:310px;
+						background:#999;
+						margin-top:0px;
+						border-radius:3px;}
+	/*Start 公司的logo*/
+	.container_content .content_logo{float:left; position:absolute; display:block; width:50px;; bottom:10px;left:1%; height:60px; border:1px solid #F00; }
+	.container_content .content_logo img{ height:100%; 
+                                          width:80%; 
+									      cursor:pointer;
+									      }	
+	/*End公司的log*/
+
+    /*Start 公司的内*/				
+	.container_content .content{ position:absolute;
+								 float:left;
+								 left:15%;
+								 right:20%;
+								 height:60%;
+								 border:1px solid;
+								 width:70%;
+								 bottom:20%;
+								 position:absolute;
+								 display:block;
+								 -moz-box-sizing:border-box;
+								 -webkit-box-sizing:border-box;
+								 -ms-box-sizing:border-box;
+								 border-box:border-box;
+								 
+	} 
+	.container_content .content .content_go{ position:absolute;right:20%; top:60%;}
+	.container_content .content .content_go .go_icon{ height:30px; width:70px; background:url(../../../../../../Public/Pictures/Sample%20Pictures/Hydrangeas.jpg)}
+
+	 /*End 公司的内容*/	
+
+    /*Start 公司的快捷键*/
+	.container_content .content_shortcuts{ position:absolute;
+									       width:120px;
+									       bottom:-48%;
+									       left:32%;
+									       border: 0px #F66 dashed; 
+									       display:block;
+									       clear:left;
+										   overflow:hidden;
+										   height:9%;
+										   
+									}
+	.container_content .content_shortcuts li{
+									      display:block;
+										  border:1px #9CF solid;
+										  margin:1px 5px;
+										  line-height:25px;
+										  text-align:center;
+										  border-radius:3px;
+										  width:30px;
+										  float:left;
+										  background:#0FF;}
+	}

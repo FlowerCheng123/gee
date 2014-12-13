@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+.Con, .pic, .rollBox , .pic img, .pic, .srcCon{-moz-box-sizing:border-box;
+									 -webkit-box-sizing:border-box;
+									 -ms-box-sizing:border-box;
+									 -o-box-sizing:border-box;
+									 border-box:border-box;}
+.image:hover{ margin-top:0px; cursor:pointer;}
+.image:active{ border:1px #F00 solid;}
+
+ @media screen and (min-width: 978px) {
+  .rollBox{         position:relative;
+				    width:978px;
+					margin:0 auto;
+					height:125px;
+				   
+					margin-top:10px;
+					border-radius:3px;}
+  
+   .Con{ width:864px;  
+         border:0px #0F3 solid; 
+		 left:57px;
+		 height:100%;
+		 overflow:hidden; 
+		 float:left; 
+		 display:block;
+		 position:absolute;}
+  .leftButton{ cursor:pointer; vertical-align: middle; height:100%; width:57px;  float:left; display: inline; overflow:hidden; position:absolute; }
+  .rightButton{cursor:pointer; vertical-align: middle; height:100%; width:57px; float:left; display:inline; overflow:hidden;position:absolute;left:921px;}
+  .srcCon{ width:1000000px; display:block; }
+  .pic{  background:#fff; border:0px #999 solid; float:left;height:100%; text-align:center;width:216px; background:}
+  .pic img{display:block; background:#fff; width:100%; height:100px; padding:2px; }
+  .pic span{ margin-bottom:2px}
+ }
+  
+ @media screen and (min-width: 760px) and (max-width:978px){
+  .rollBox{ position:relative;
+            margin:0 auto;
+            margin-top:10px;
+            width:768px;
+			height:125px;
+			border-radius:3px;
+			}
+  
+   .Con{ width:704px;  
+         border:0px #0F3 solid; 
+		 left:32px;
+		 height:100%;
+		 overflow:hidden; 
+		 float:left; 
+		 display:block;
+		 height:100%; 
+		 position:absolute;}
+  .leftButton{ cursor:pointer; vertical-align: middle; height:80%; width:32px; background:#999 no-repeat 0px 5px; float:left;                display: inline; overflow:hidden; position:absolute; }
+  .rightButton{cursor:pointer; vertical-align: middle; height:80%; width:32px; background:#F00 no-repeat 0px 5px; float:left;                display:inline; overflow:hidden;position:absolute;left:736px;}
+  .srcCon{ width:1000000px; display:block; }
+  .pic{   background:#fff; border:0px #999 solid; float:left;height:100%; text-align:center;width:176px;}
+  .pic img{display:block; background:#FFF; width:100%;padding:2px; }
+  .pic span{ margin-bottom:2px}
+ }
+ 
+  @media screen and (min-width: 480px) and (max-width: 760px){
+  .rollBox{ position:relative;
+            margin:0 auto;
+            margin-top:10px;
+            width:480px;
+			height:115px;
+			
+			border-radius:3px;
+			border:0px solid red;
+			display:block;}
+  
+   .Con{ width:420px;  
+         border:0px #0F3 solid; 
+		 left:30px;
+		 height:100%;
+		 overflow:hidden; 
+		 float:left; 
+		 display:block;
+		 height:100%; 
+		 position:absolute;}
+  .leftButton{ cursor:pointer; vertical-align: middle; height:70%; width:30px; background:#999 no-repeat 0px 5px; float:left; display: inline; overflow:hidden; position:absolute; }
+  .rightButton{cursor:pointer; vertical-align: middle; height:70%; width:30px; background:url(../image/arrow01.png) no-repeat 0px 5px; float:left; display:inline; overflow:hidden;position:absolute;left:450px;}
+  .srcCon{ width:1000000px; display:block; }
+  .pic{  background:#fff; border:0px #999 solid; float:left;height:100%; text-align:center;width:140px;}
+  .pic img{display:block; background:#FFF; width:100%; padding:1px; }
+  .pic span{ margin-bottom:2px}
+ }
+ @media screen and (min-width:100px) and (max-width:480px) {
+	 .rollBox{ position:relative;
+            
+            width:320px;
+            margin:0 auto;
+			margin-top:10px;
+			height:105px;
+			overflow:;
+			border-radius:3px;
+			border:0px solid red;
+			display:block;}
+  
+   .Con{ width:252px;  
+         border:0px #0F3 solid; 
+		 left:34px;
+		 height:100%;
+		 overflow:hidden; 
+		 float:left; 
+		 display:block;
+		 height:100%; 
+		 position:absolute;
+		 margin-top:3px;}
+  .leftButton{ cursor:pointer; vertical-align: middle;  width:34px; background:#999 no-repeat 0px 5px; float:left; display: inline; overflow:hidden; position:absolute; height:50%; }
+  .rightButton{cursor:pointer; vertical-align: middle;  width:34px; background:url(../image/arrow01.png) no-repeat 0px 5px; float:left; display:inline; overflow:hidden;position:absolute;left:286px; height:50%;}
+  .srcCon{ width:1000000px; display:block; }
+  .pic{ background:#fff; border:0px #999 solid; float:left;height:100%; text-align:center;width:84px;}
+  .pic img{display:block; background:#FFF; width:100%;  padding:1px;}
+  .pic span{ margin-bottom:2px}
+ }
+ 
+  
+  

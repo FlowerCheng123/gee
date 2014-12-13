@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+<!--头部和导航栏信息-->
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td { 
+margin:0; 
+padding:0; 
+} 
+
+/*清除边线*/ 
+fieldset, img { 
+border:0; 
+} 
+ 
+li { 
+list-style:none; 
+} 
+ 
+h1, h2, h3, h4, h5, h6 { 
+font-size:100%; 
+font-weight:normal; 
+}
+
+@-webkit-viewport { width: device-width; }
+@-moz-viewport { width: device-width; }
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }
+
+.container_nav  ul li{ cursor:pointer;
+                       -webkit-box-sizing:border-box; 
+					   -moz-box-sizing:border-box; 
+					   box-sizing:border-box;}
+.container_nav  ul li:hover{ background:#CF9; color:#000;}
+.container_nav  ul li:active{ border-right:2px solid #CCC;border-bottom:2px solid #CCC;border-left:2px solid #0F0;border-top:2px solid #0F0;}
+.container_nav  ul li a{ text-decoration:blink;}
+.logo_bar{ background:url(../image/background.png) repeat-x; margin-top:-8px;}
+.nav_handler{ position:absolute; cursor:pointer; height:20px; width:20px; background:url(../image/plus.png); right:10px; top:5px;}
+.nav_handler_1{ position:absolute; cursor:pointer; height:20px; width:20px; background:url(../image/minus.png); right:10px; top:5px;}
+.nav-collapse ul li{ line-height:25px;}
+.nav-collapse ul{}
+.nav_transit{   transition: width 2s;
+				-moz-transition: width 2s; /* Firefox 4 */
+				-webkit-transition: width 2s; /* Safari 和 Chrome */
+				-o-transition: width 2s; /* Opera */
+				height:140px;
+				display:block;}
+
+.show{display:block;}
+.logo_bar img{ cursor:pointer;}
+
+@media screen and (min-width: 978px)
+{
+	
+  /*Logo Start*/
+	
+	.logo_bar{                             width:100%;
+										   height:70px;
+										   border-radius:1px;
+										   position:relative;
+		                                                      }
+	.logo_bar .logo img{                   position:absolute; 
+										   left:20px;
+										   top:10px;
+										   width:24%;
+										   
+										   background-repeat:no-repeat;
+										             }
+	.logo_bar .nav_icon {                  position:absolute;
+										   right:20px; 
+										   top:10px;
+										           }
+	.nav_icon img{ width:60px; height:40px;}
+	.logo_bar .nav_icon ul{ }
+	.logo_bar .nav_icon ul li{             float: left;
+							               display:block;
+										   margin-left:10px;
+										   
+							                           }
+  /*Logo End*/
+		
+  /*Navigation Start*/
+     .nav_handler{display:none;}
+     .none{}
+	.container_nav{                        top:35px;
+										   width:979px; 
+									       position:relative; 
+										   margin:0 auto;
+										   display:block;
+									 }
+	.container_nav .nav_slide_left{width:11.5px; height:35px; float:left; position:absolute;left:0px; }
+	.container_nav .nav_slide_right{width:11.5px; height:35px; float:left;position:absolute; right:0px;}
+	.container_nav .nav_slide_left img,.container_nav .nav_slide_right img{ width:100%; height:100%;}
+
+	.container_nav ul{ width:956px;overflow:hidden;display:block; float:left; height:35px; position:absolute; left:11.5px;} 
+	.container_nav  ul li{                 float:left; 
+										   text-align:center; 
+										   border:2px #9F3 solid; 
+										   margin-left:20px;
+										   width:136px;
+										   padding:3px 10px 3px 10px;;
+									
+										                          }
+	  ul li span{                         font-size:16px; 
+						                                   }
+    /*Navigation End*/
+}
+
+@media screen and (min-width: 40px) and (max-width: 978px)
+{
+	  /*Logo Start*/
+	.logo_bar{ width:100%;
+			   height:60px;
+			   border-radius:1px;
+			   position:relative;
+		   }
+    
+	.logo_bar .nav_icon { position: absolute;
+	                       right:2%; 
+						   top:5px; }
+    .nav_icon img{ width:40px; height:30px;}
+	.logo_bar .nav_icon ul li{ float:left;
+							   display:block;
+							  margin-left:10px;
+							   }
+	.logo_bar .logo img{ position:absolute; 
+	                     left:10px; 
+						 top:10px; 
+						 }
+	
+	/*Logo End*/
+	
+	/*Navigation Start*/
+
+    .out_handler{width:100%; background:#FC0; height:28px;} 
+	.container_nav ul{ margin:0 auto; overflow:hidden; position:relative;} 
+	.container_nav  ul li{      
+					   text-align:left;
+					   border:0px #9F3 solid; 
+					   margin-left:0px;
+					   width:10%px;
+					   padding:3px 10px 3px 10px;;
+					   background:#FC6;
+					   margin-top:2px;
+					}
+	.container_nav .nav_slide_left{width:10px; height:35px; float:left; display:none; }
+	.container_nav .nav_slide_right{width:10px; height:35px; float:left;display:none; }
+	.container_nav  ul li span{ font-size:16px; 
+						  }
+	.lastOne{ display:none;}
+}
+@media screen and (min-width: 760px) and (max-width: 978px){
+		.container_nav  { margin:0 auto;  width:768px;margin-top:30px; position:relative;}
+		.none{display:none;}
+		.nav-collapse ul{width:100%;}
+		.nav_icon img{ width:60px; }
+		.logo_bar .logo img{ position:absolute; 
+	                         width:200px;
+							
+						 }}
+@media screen and (min-width: 480px) and (max-width: 760px){
+		.container_nav  { margin:0 auto;  width:480px;margin-top:30px;  position:relative;}
+		.none{display:none;}
+		.nav-collapse ul{width:100%;}
+		.nav_icon img{ width:45px; }
+		.logo_bar .logo img{ position:absolute; 
+	                         width:35%
+							
+						 }}
+@media screen and (min-width: 0px) and (max-width: 480px){
+	    .logo_bar{ width:320px; position:relative; margin:0 auto;}
+		.none{display:none;}
+		.container_nav  { margin:0 auto;  width:320px;margin-top:30px; position:relative; }
+		.nav-collapse ul{width:100%;}
+		.nav_icon img{ width:45px !important;}
+		.logo_bar .logo img{ position:absolute; 
+	                         width:40%
+							
+						 }}
+		   

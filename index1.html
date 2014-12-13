@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--默认都允许用户缩放页面，或者在屏幕双击放大或缩小。-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=yes" /> 
+<!--禁止缩放-->
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+<title>金宝贝</title>
+<!-- 新 Bootstrap 核心 CSS 文件 -->
+
+<link rel="stylesheet" href="css/head_nav.css">
+
+
+<link rel="stylesheet" href="css/font.css">
+<link rel="stylesheet" href="css/cont_layout.css">
+<link rel="stylesheet" href="css/shortcuts.css">
+<link rel="stylesheet" href="css/content.css">
+
+<style type="text/css">
+
+.class1{ cursor:pointer;border:1px #F00 solid; margin-top:0px;}
+.class2{ background:url(image/pic004.jpg) no-repeat center; height:100%; width:100%;}
+.class3{ background:url(image/pic008.jpg) no-repeat center; height:100%; width:100%;}
+.class4{ background:url(image/pic006.jpg) no-repeat center; height:100%; width:100%;}
+.class5{ background:url(image/pic007.jpg) no-repeat center; height:100%; width:100%;}
+.class6{ width:100%;; height:100%;; position:absolute; z-index:0;}
+
+
+
+</style>
+
+<script src="js/jquery-2.0.3.min.js"></script>
+
+<script src="js/global_js.js"></script>
+<script src="js/nav_control.js"></script>
+
+</head>
+
+<body >
+<!--Logo Start--> 
+   <header class="logo_bar">
+       <div class="logo"><img src="image/logo.png" /></div>
+       <div class="nav_icon">
+          <ul>
+            <li><img src="image/ba1.png" /></li>   
+            <li><img src="image/ba2.png" /></li>
+            <li><img src="image/ba1.png" /></li>
+         </ul>
+       </div>
+       
+   </header>
+  <!--Logo End--> 
+  
+  <!--Navigation Start--> 
+  
+  <div class="container_nav">
+       <div class="out_handler">
+         <div class="nav_handler" id='nav_flag'></div><!--导航栏压缩时用于显示导航栏下拉的快捷键-->
+         </div>
+         <div class="nav-collapse font" id="nav_handler">
+         <div  class="nav_slide_left"><img src="image/nav_slide_r.png"></div>
+           <ul class="none" id="nav_con">
+            <div style="width:10000px;" id="nav_inner">
+              <li><a href="index1.html"><span>我是金宝</span></a></li>
+              <li><a href="index2.html"><span>你的达人指数</span></a></li>
+              <li><a href="index3.html"><span>早教是什么</span></a></li>
+              <li><a href="index4.html"><span>金宝贝是谁</span></a></li>
+              <li><a href="index5.html"><span>课程初体验</span></a></li>
+              <li><a href="index6.html"><span>我们这拨人</span></a></li>
+              <li><a href="index7.html"><span>360服务</span></a></li>
+              <li class="lastOne"><a href="#" ><span></span></a></li>
+            </div>
+           </ul>
+           <div class="nav_slide_right"><img src="image/nav_slide_l.png"></div>
+           </div>
+     
+  </div> 
+   
+  <!--Navigation End-->  
+  <!--===================Content Start==================================-->
+  <!--CSS 文件content.css -->
+   <div class="container_content">
+   <div class="content_logo"><img src="#"/></div>
+                  <!--Page1 Start-->
+                  <dvi id="page1" class="content">
+                    
+                       <div class="content_msg">
+                          <p>你好！我的名字叫金宝，我在金宝贝可是大大的名人！孩子和家长们都很喜欢我，我是他们最好的朋友！
+                         如果你想了解金宝贝，找我就对了，先让我带着你到处逛逛吧…</p>
+                       </div>
+                       
+                        <div class="content_go">
+                          <div class="go_icon" id="go1"></div>
+                          <span>点击继续</span>
+                        </div>
+                    </div>
+                  <!--Page1 End-->  
+       
+                <!--Page2 Start--> 
+                <div id="page2" style="display:none" class="content">
+                            
+                                   <div class="content_msg">
+                                      <p>22222</p>
+                                   </div>
+                                   
+                                    <div class="content_go">
+                                      <div class="go_icon" id="go2"></div>
+                                      <span>点击继续</span>
+                                    </div>
+                       </div>
+                        <!--Page2 End--> 
+         
+         
+          <!--Page3 Start--> 
+             <div id="page3" style="display:none;" class="content">
+                     
+                               <div class="content_msg">
+                                  <p>33333</p>
+                               </div>
+                               
+                                <div class="content_go">
+                                  <div class="go_icon" id="go3"></div>
+                                  <span>点击继续</span>
+                                </div>
+                       </div>
+                   <!--Page3 End--> 
+   
+                   <!--Page4 Start--> 
+                       <div id="page4" style="display:none;" class="content">
+                               <div class="content_msg">
+                                  <p>44444</p>
+                               </div>
+                                <div class="content_go">
+                                  <div class="go_icon" id="go4"></div>
+                                  <span>点击继续</span>
+                                </div>
+
+                       </div>
+                   <!--Page4 End-->
+   
+                   <!--Page5 Start--> 
+                       <div id="page5" style="display:none;" class="content">
+                                   <div class="content_msg">
+                                      <p>55555</p>
+                                   </div>
+                                    <div class="content_go">
+                                      <div class="go_icon" id="go5"></div>
+                                      <span>点击继续</span>
+                                    </div>
+                       </div>
+                   <!--Page5 End-->  
+                    
+       <div class="content_shortcuts fontS">
+            <div class="block"><img src="image/contract3.png" style="height:100%; width:100%;"></div>
+              <ul>
+                 <li><a href="#">预约<br>试听
+                      </a></li>
+                 <li><a href="#">下载<br>APP
+                     </a></li>
+                 <li><a href="#">中心<br>查询
+                     </a></li>
+               
+                 </ul>
+       </div>
+
+   </div>
+ 
+    
+     <footer></footer>
+</body>
+
+
+
+
+
+
+
+
+
+<!--================================================================-->
+<!--Nav_Slide Start -->
+<script>
+var navSlider=  navSlider("nav_con", {
+					Speed: 1, //速度
+					Space: 4, //每次移动的距离
+					fill: 0, //整体的位移
+					givenWidth:156,
+					fillMax1:1,//当页面大于768时，滑动显示的个数
+					
+				});
+
+
+</script>
+<!--Nav_Slide End -->
+<!--================================================================-->
+
+<!--四级菜单轮播Start-->
+<script>
+
+   var forthMenuSlide=forthMenuSlide('cont_inner',{
+	   fillMax:4,
+	   pageHeight:'item1',
+	   Space:1,
+	   fill:0,
+	   });
+   
+</script>
+<!--四级菜单轮播End-->
+<!--================================================================-->
+
+<!--Video Control Start-->
+<script>
+
+$(function(){
+	$('#video1').click(function(){
+		$(this).removeClass('cont_layout4')
+		$(this).parent().append('<video src="video/video1.mp4"  width="100px" height="100px;" id="video2"  class="class6" controls="controls" ></video>');
+		$('#video2').live('click',makeSmall());
+		
+		})})
+
+var myVideo=document.getElementById('video2');
+function playPause(video)
+{ 
+
+var myVideo=document.getElementById(video);
+if (myVideo.paused) 
+  myVideo.play(); 
+else 
+  myVideo.pause(); 
+} 
+
+function makeBig()
+{ 
+myVideo.width=560; 
+} 
+
+function makeSmall()
+{ 
+myVideo.width=320; 
+} 
+
+function makeNormal()
+{ 
+myVideo.width=420; 
+} 
+</script>
+<!--Video Control End-->
+<!--================================================================-->
+<!--快捷键 Start-->
+  <script type="text/javascript">
+    var shortcuts=shortcuts("block",{
+		showObj:'content_shortcuts',
+		transObj:'height',
+		height1:'45px',
+		height2:'300px',
+		time:500});
+
+  </script>
+<!--快捷键 End-->
+<!--================================================================-->
+
+<!--三级菜页面控制 Start-->
+
+<script type="text/javascript">
+ var threePageSlide=threePageSlide("threePageMenu",{
+	 tag0:'p',
+	 TIME1:500
+	 })
+</script>
+<!--三级菜页面控制 End-->
+<!--================================================================-->
+
+<!--二级菜单的轮播 Start-->
+<script type="text/javascript">
+//控制图片的左右滑动
+	var imgSlider=  imgSlider("Con", {
+					Speed: 1, //速度
+					Space: 4, //每次移动的距离
+					Space1:4,
+					fill: 0, //整体的位移
+					pageWidth:"realpic1",//用来测量当前id的物理宽度
+					size1:768,
+					size2:"",
+					size3:"",
+					fillMax1:4,//当页面大于768时，滑动显示的个数
+					fillMax2:3 //当页面小于768时，滑动显示的个数
+				});
+</script>
+<!--二级菜单的轮播End-->
+<!--================================================================-->
+
+<!--二级菜单的页面变化Start-->
+<script type="text/javascript">
+//左右滑动控制页面的显示
+		var slidePage=   slidePage('innerCont',{
+						 cont_num:7,
+						 time:1,//画面隐藏和显示的时间
+						 });
+</script>
+
+<!--二级菜单的页面变化End-->
+
+
+
+</html>
